@@ -19,8 +19,8 @@ async function initialize() {
     return new Promise(async (resolve, reject) => {
         try {
             // Read the contents of the 'Students.json' and 'Courses.json' files
-            const studentsData = await fs.readFile('../Data/Students.json', 'utf-8');
-            const coursesData = await fs.readFile('../Data/Courses.json', 'utf-8');
+            const studentsData = await fs.readFile('./Data/Students.json', 'utf-8');
+            const coursesData = await fs.readFile('./Data/Courses.json', 'utf-8');
 
             // Parse the JSON data into arrays of objects
             const students = JSON.parse(studentsData);

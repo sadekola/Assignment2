@@ -1,7 +1,7 @@
 // a2.js
 
 // Import the collegeData module (collegeData.js)
-const collegeData = require('./collegeData');
+const collegeData = require('./modules/collegeData');
 
 // Initialize data by calling the initialize function from the collegeData module
 collegeData.initialize()
