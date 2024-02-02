@@ -1,3 +1,13 @@
+/*********************************************************************************
+*  WEB700 – Assignment 2
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
+*  No part of this assignment has been copied manually or electronically from any other source
+*  (including web sites) or distributed to other students.
+* 
+*  Name: Samuel Adekola Student ID: 130895220 Date: 2/1/2024
+*
+********************************************************************************/ 
+
 // a2.js
 
 // Import the collegeData module (collegeData.js)
@@ -7,7 +17,7 @@ const collegeData = require('./modules/collegeData');
 collegeData.initialize()
     .then(() => {
         // Log a success message if data initialization is successful
-        console.log("Data initialized successfully.");
+       // console.log("Data initialized successfully.");
 
         // Test getAllStudents function
         collegeData.getAllStudents()
